@@ -3,10 +3,9 @@ def hows_the_parrot():
 
 hows_the_parrot()	
 
-def lumberjack(name):
-    if name.lower() == 'kenneth':
-        print("Kenneth's a lumberjack and he's OK!")
-    else:
-        print("{} sleeps all night and {} works all day!".format(name, name))
+def lumberjack(name, pronoun):
+        print("{}'s a lumberjack and {} OK!".format(name, pronoun))
 
-lumberjack("Kenneth")
+lumberjack("Kenneth", "he's")
+lumberjack("Lacey", "she's")
+lumberjack("Sam", "they're")
